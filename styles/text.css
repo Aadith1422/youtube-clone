@@ -1,0 +1,59 @@
+/* === General Paragraph Style === */
+p {
+  font-family: Arial;
+}
+
+/* === Video Title Styling === */
+.vedio-tittle {
+  font-weight: bold;
+  font-size: 18px;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+/* === Video Statistics Styling === */
+.vedio-stats {
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* === Author Name Styling === */
+.author {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* === Description Styling === */
+.describtion {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  width: 280px; 
+  line-height: 22px;
+  margin-bottom: 100px;
+}
+
+/* === Promotional Text (e.g., Apple banner) === */
+.apple-text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+/* === Shop Link Styling === */
+.shop-link {
+  cursor: pointer;
+}
+
+/* === Hover Effect for Shop Link === */
+.shop-link:hover {
+  text-decoration: underline;
+}

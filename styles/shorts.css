@@ -1,0 +1,60 @@
+/* ---------------- Shorts Icon ---------------- */
+/* Styles the Shorts heading icon to be small and aligned properly with text */
+.shorts-icon {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* ---------------- Shorts Section Container ---------------- */
+/* Creates a grid layout for displaying multiple Shorts in rows with gaps and padding */
+.shorts-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+  gap: 16px;
+  padding: 16px 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* ---------------- Individual Shorts Items ---------------- */
+/* Aligns text to the left inside each Shorts item */
+.shorts-item {
+  text-align: left;
+}
+
+/* Styles the Shorts thumbnail image with fixed height and rounded corners */
+.shorts-thumbnail {
+  width: 100%;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ---------------- Shorts Title ---------------- */
+/* Sets spacing and typography for the Shorts title text */
+.shorts-title {
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* ---------------- Shorts View Count ---------------- */
+/* Styles the text showing the number of views in gray and smaller font */
+.shorts-count {
+  font-size: 12px;
+  color: gray;
+}
+
+/* ---------------- Three Dot Icon ---------------- */
+/* Positions the 3-dot menu icon to the right inside the title row */
+.dot {
+  height: 20px;
+  float: right;
+}
+
+/* ---------------- Shorts Heading ---------------- */
+/* Adds spacing above the Shorts heading (e.g., "Shorts" title with icon) */
+.shorts-heading {
+  margin-top: 50px;
+}

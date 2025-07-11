@@ -1,0 +1,44 @@
+/* ---------------- Filter Bar Container ---------------- */
+/* Styles the horizontal scrollable filter bar with padding, fixed position, and white background */
+.filter-bar {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 12px 8px;
+  position: fixed;
+  gap: 12px;
+  background-color: white;
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  z-index: 200;
+}
+
+/* Hides the scrollbar for WebKit browsers like Chrome and Safari */
+.filter-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------------- Filter Buttons ---------------- */
+/* Styles for each individual filter button: rounded, light background, small font */
+.filter {
+  flex: 0 0 auto;
+  padding: 6px 12px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 16px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  color: #0f0f0f;
+  transition: background-color 0.2s;
+}
+
+/* Hover state: slightly darker background for better interaction feedback */
+.filter:hover {
+  background-color: #e6e6e6;
+}
+
+/* Active filter style: dark background and white text to indicate selected state */
+.filter.active {
+  background-color: #0f0f0f;
+  color: #fff;
+}

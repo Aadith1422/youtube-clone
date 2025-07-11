@@ -1,0 +1,15 @@
+/* === Paragraph Text Style === */
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* === Global Body Layout === */
+body {
+  margin: 0;
+  padding-top: 50px;     /* Makes space for fixed header */
+  padding-left: 73px;    /* Makes space for fixed sidebar */
+  padding-right: 24px;
+  background-color: white;
+}
