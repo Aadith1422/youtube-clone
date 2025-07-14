@@ -12,11 +12,6 @@
   z-index: 200;
 }
 
-/* Hides the scrollbar for WebKit browsers like Chrome and Safari */
-.filter-bar::-webkit-scrollbar {
-  display: none;
-}
-
 /* ---------------- Filter Buttons ---------------- */
 /* Styles for each individual filter button: rounded, light background, small font */
 .filter {
