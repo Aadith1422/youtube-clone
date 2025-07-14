@@ -130,7 +130,7 @@
 }
 
 .upload-icon {
-  padding: 100px;
+  padding: 10px;
   height: 18;
   background-color: rgb(245, 245, 245);
   font-weight: 500;
@@ -176,7 +176,7 @@
 #country-code {
   font-size: 12px;
   font-weight: 500;
-  color: #aaa;
+  color: rgb(170, 170, 170);
   margin-left: 4px;
   padding-bottom: 15px;
   vertical-align: top;

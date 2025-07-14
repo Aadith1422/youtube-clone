@@ -23,17 +23,17 @@
   font-size: 14px;
   font-family: Arial, sans-serif;
   cursor: pointer;
-  color: #0f0f0f;
+  color: rgb(15, 15, 15);
   transition: background-color 0.2s;
 }
 
 /* Hover state: slightly darker background for better interaction feedback */
 .filter:hover {
-  background-color: #e6e6e6;
+  background-color: rgb(230, 230, 230);
 }
 
 /* Active filter style: dark background and white text to indicate selected state */
 .filter.active {
-  background-color: #0f0f0f;
-  color: #fff;
+  background-color: rgb(15, 15, 15);
+  color:  white;
 }
